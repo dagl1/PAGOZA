@@ -32,9 +32,9 @@ Required actions:
     - Any additional scopes, eg. workflows
   - Generate the token and copy it securely.
   - Set the token as an environment variable in your terminal:
-    - On macOS/Linux: `export GITHUB_TOKEN=your_token_here`
-    - On Windows (Command Prompt): `set GITHUB_TOKEN=your_token_here`
-    - On Windows (PowerShell): `$env:GITHUB_TOKEN="your_token_here"`
+    - On macOS/Linux: `export PAGOZA_GITHUB_TOKEN=your_token_here`
+    - On Windows (Command Prompt): `set PAGOZA_GITHUB_TOKEN=your_token_here`
+    - On Windows (PowerShell): `$env:PAGOZA_GITHUB_TOKEN="your_token_here"`
 
 
 - Clone the repository:
