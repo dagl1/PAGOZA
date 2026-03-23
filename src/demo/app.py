@@ -13,9 +13,13 @@ server = app.server  # 👈 REQUIRED for Render
 
 # add swiss_roll.png to show in div
 layout = html.Div(
-    html.Img(
-        src=app.get_asset_url("swiss_roll.png"), style={"width": "100%", "height": "auto"}
-    )
+    [
+        # title
+        html.H1("PAGOZA - A Python Library for Topological Data Analysis"),
+        html.Img(
+            src=app.get_asset_url("swiss_roll.png"), style={"width": "50%", "height": "auto"}
+        ),
+    ]
 )
 app.layout = layout
 

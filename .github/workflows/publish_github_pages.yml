@@ -7,16 +7,28 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Copy assets to site
-        run: cp -r assets site/
+        run: |
+            mkdir -p site/assets
+            cp -R assets/. site/assets/
 
       - name: Deploy static site
         uses: peaceiris/actions-gh-pages@v4
