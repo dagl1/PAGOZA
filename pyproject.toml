@@ -1,5 +1,5 @@
 [project]
-name = "bootstrap"
+name = "pagoza"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -9,11 +9,13 @@ dependencies = [
     "commitizen>=4.11.0",
     "isort>=7.0.0",
     "mypy>=1.19.1",
+    "myst-parser>=5.0.0",
     "pre-commit>=4.5.1",
     "pytest>=9.0.2",
     "python-semantic-release>=10.5.3",
     "ruff>=0.14.10",
     "sphinx>=9.1.0",
+    "sphinx-rtd-theme>=3.1.0",
     "ty>=0.0.8",
 ]
 
