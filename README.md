@@ -1,6 +1,6 @@
 <h2>PAGOZA Status</h2>
 
-![Build Status](https://github.com/dagl1/PAGOZA/actions/workflows/ci.yml/badge.svg) 
+![Build Status](https://github.com/dagl1/PAGOZA/actions/workflows/CI.yml/badge.svg) 
 ![Docs Status](https://readthedocs.org/projects/pagoza/badge/?version=latest) 
 ![Demo Status](https://img.shields.io/website?down_color=red&down_message=offline&label=Render&style=flat&up_color=brightgreen&up_message=online&url=https%3A%2F%2Fpagoza.onrender.com)
 
