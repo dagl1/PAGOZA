@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/dagl1/PAGOZA/compare/v1.2.0...v1.3.0) (2026-03-23)
+
+### Features
+
+* **site/demo:** added swiss_roll.png for proof of concept ([1154c2c](https://github.com/dagl1/PAGOZA/commit/1154c2c0bb7d8f286465319c5bf908cc2d3bfff1))
+
 ## [1.2.0](https://github.com/dagl1/PAGOZA/compare/v1.1.1...v1.2.0) (2026-03-23)
 
 ### Features
