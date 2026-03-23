@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/dagl1/PAGOZA/compare/v1.0.0...v1.1.0) (2026-03-23)
+
+### Features
+
+* **pyproject:** changed tool.mypy ([04ae7bb](https://github.com/dagl1/PAGOZA/commit/04ae7bb0e5ddb62251734d2eed2e832ea44cdd74))
+
 ## 1.0.0 (2026-03-23)
 
 ### Features
