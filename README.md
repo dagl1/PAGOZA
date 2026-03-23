@@ -1,6 +1,14 @@
+<h2>PAGOZA Status</h2>
+
+<p> class="status-badges">
+  <img src="https://github.com/dagl1/PAGOZA/actions/workflows/ci.yml/badge.svg" alt="Build Status">
+  <img src="https://readthedocs.org/projects/pagoza/badge/?version=latest" alt="Docs Status">
+  <img src="https://img.shields.io/website?down_color=red&down_message=offline&label=Render&style=flat&up_color=brightgreen&up_message=online&url=https%3A%2F%2Fpagoza.onrender.com" alt="Demo Status">
+</p>
+
 <p>
   <a href="https://pagoza.readthedocs.io">Docs</a> |
-  <a href="https://your-app.onrender.com">Live Demo</a>
+  <a href="https://pagoza.onrender.com/">Live Demo</a>
 </p>
 
 
