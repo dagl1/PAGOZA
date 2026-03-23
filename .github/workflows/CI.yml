@@ -36,4 +36,4 @@ jobs:
 
       - name: Run mypy type check
         shell: pwsh
-        run: uv run mypy
+        run: uv run mypy src
