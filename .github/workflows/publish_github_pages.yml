@@ -15,6 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Copy assets to site
+        run: cp -r assets site/
+
       - name: Deploy static site
         uses: peaceiris/actions-gh-pages@v4
         with:
