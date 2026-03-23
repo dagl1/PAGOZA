@@ -1,3 +1,9 @@
+## [1.3.1](https://github.com/dagl1/PAGOZA/compare/v1.3.0...v1.3.1) (2026-03-23)
+
+### Bug Fixes
+
+* **site.index.html:** set assets folder correctly ([9645364](https://github.com/dagl1/PAGOZA/commit/9645364ed4cb4a67a1b05820aea327fb6846af78))
+
 ## [1.3.0](https://github.com/dagl1/PAGOZA/compare/v1.2.0...v1.3.0) (2026-03-23)
 
 ### Features
