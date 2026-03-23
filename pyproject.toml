@@ -10,6 +10,7 @@ dependencies = [
     "dash>=4.1.0",
     "dash-bootstrap-components>=2.0.4",
     "dash-mantine-components>=2.6.0",
+    "gunicorn>=25.1.0",
     "isort>=7.0.0",
     "mypy>=1.19.1",
     "myst-parser>=5.0.0",

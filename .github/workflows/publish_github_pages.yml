@@ -1,0 +1,22 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy static site
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.PAGOZA_GITHUB_TOKEN }}
+          publish_dir: ./site

@@ -6,6 +6,14 @@
 Welcome to PAGOZA's documentation!
 =================================
 
+Demo
+====
+
+Try the live dashboard:
+
+https://pagoza.onrender.com
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
