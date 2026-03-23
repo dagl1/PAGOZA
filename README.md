@@ -1,4 +1,7 @@
-
+<p>
+  <a href="https://pagoza.readthedocs.io">Docs</a> |
+  <a href="https://your-app.onrender.com">Live Demo</a>
+</p>
 
 
 ________________________________________________
