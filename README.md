@@ -42,11 +42,28 @@ Required actions:
   - Run the command: `git clone`
   - Navigate into the project directory: `cd your-repo-name`
 
-- Run bootstrap.sh:
-  - In the project directory (preferably using git Bash):
-`bash ./bootstrap.sh` (macOS/Linux) or `bash bootstrap.bat` (Windows terminal)
-  - This script will install all necessary dependencies and set up the project environment.
+- Run the following commands to install and initialise the project:
+  - `pip install uv` (alternatively: install uv without pip dependencies https://docs.astral.sh/uv/getting-started/installation/)
+  - `uv sync` // installs all project dependencies from pyproject.toml
+  - `pre-commit` // initialises pre-commit hooks
+  - `uv tool install commitizen` // tool install commitizen
+  - `git config core.autocrlf false` // optional
+  - `uv run pre-commit install --hook-type commit-msg` // checks if exists
 
+- Add any other tools with `uv tool install`
+- Add dependencies with `uv add <package>`
+- Ensure your .yaml workflows (.readthedocs.yaml, .github/workflows/*.yaml) are configured for your branch if applicable
+
+_____________________________________
+
+- Commiting code:
+- Preferably utilise commitizen, instead of raw commits:
+  - `git add file`
+  - `cz commit`
+  - If any problem was found, it should either be fixed by pre-commit, or the commit message was incorrect. In the former case:
+    - `git add file` // re-add file, then `cz commit --retry`
+  - Otherwise perform new `cz commit` after re-adding files and change the message
+- If it is necessary to commit and push due to time constraints, you can get around pre-commit through: `git commit -m "message" --no-verify`
 
 ________________________________________________
 
