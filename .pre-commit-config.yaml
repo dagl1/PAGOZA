@@ -49,3 +49,10 @@ repos:
         args: ['--maxkb=99000']
       - id: end-of-file-fixer
       - id: trailing-whitespace
+
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: 'v1.19.1'  # Use the sha / tag you want to point at
+    hooks:
+    -   id: mypy
+        additional_dependencies: [types-requests, types-python-dateutil, tokenize-rt==3.2.0]
