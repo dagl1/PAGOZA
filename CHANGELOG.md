@@ -1,3 +1,9 @@
+## [1.3.2](https://github.com/dagl1/PAGOZA/compare/v1.3.1...v1.3.2) (2026-03-23)
+
+### Bug Fixes
+
+* **site.index.html:** set relative path for assets folder ([9dc6509](https://github.com/dagl1/PAGOZA/commit/9dc6509bf07d726ec772086aa9c39a914abb62d1))
+
 ## [1.3.1](https://github.com/dagl1/PAGOZA/compare/v1.3.0...v1.3.1) (2026-03-23)
 
 ### Bug Fixes
