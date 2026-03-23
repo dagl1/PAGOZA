@@ -26,7 +26,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["compositegame*"]
+include = ["pagoza*"]
 
 [tool.setuptools]
 package-dir = {"" = "src"}
