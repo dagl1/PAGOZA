@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/dagl1/PAGOZA/compare/v1.1.1...v1.2.0) (2026-03-23)
+
+### Features
+
+* **demo/workflows/pyproject:** includes site with links, workflow for gh-pages, gunicorn as dependency ([7d758f8](https://github.com/dagl1/PAGOZA/commit/7d758f87004a5d94de9fe5f264a3b6e3ce0e6e4d))
+* **demo:** added app.py for render.com functionality ([f10f4c6](https://github.com/dagl1/PAGOZA/commit/f10f4c664e82c9495ec1499a4569c5dc54149f69))
+
 ## [1.1.1](https://github.com/dagl1/PAGOZA/compare/v1.1.0...v1.1.1) (2026-03-23)
 
 ### Bug Fixes
