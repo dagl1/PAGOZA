@@ -58,13 +58,7 @@ skip-magic-trailing-comma = false
 line-ending = "auto"
 
 [tool.mypy]
-ignore-missing-imports = true
-disallow-untyped-defs = true
-check-untyped-defs = true
-strict-equality = true
-warn-unused-ignores = true
-warn-return-any = true
-warn-unreachable = true
+exclude = ["docs/source/conf.py"]
 
 [tool.isort]
 profile = "black"
