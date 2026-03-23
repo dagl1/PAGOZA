@@ -1,3 +1,9 @@
+## 1.0.0 (2026-03-23)
+
+### Features
+
+* **src:** initial init.py ([58b9b17](https://github.com/dagl1/PAGOZA/commit/58b9b17a9f72198ac5b1c1e9d97ed72a8488a3d8))
+
 ## 1.0.0 (2026-01-03)
 
 ### Features
