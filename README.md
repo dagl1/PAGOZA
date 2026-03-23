@@ -44,7 +44,7 @@ Required actions:
 
 - Run bootstrap.sh:
   - In the project directory (preferably using git Bash):
-`./bootstrap.sh` (macOS/Linux) or `bootstrap.bat` (Windows terminal)
+`bash ./bootstrap.sh` (macOS/Linux) or `bash bootstrap.bat` (Windows terminal)
   - This script will install all necessary dependencies and set up the project environment.
 
 
