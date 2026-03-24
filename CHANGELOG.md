@@ -1,3 +1,9 @@
+## [1.5.0](https://github.com/dagl1/PAGOZA/compare/v1.4.0...v1.5.0) (2026-03-24)
+
+### Features
+
+* **PAGOZA:** added additional types for Mypy validation, setup pytest test suite ([77dd835](https://github.com/dagl1/PAGOZA/commit/77dd835fa7684071549ec37a7bf11adf9bdc1d96))
+
 ## [1.4.0](https://github.com/dagl1/PAGOZA/compare/v1.3.2...v1.4.0) (2026-03-24)
 
 ### Features
