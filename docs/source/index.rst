@@ -10,5 +10,6 @@ Welcome to PAGOZA's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
    Installation and Usage <installation_and_usage>
    API Reference <api_reference>
