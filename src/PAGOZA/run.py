@@ -4,7 +4,9 @@ that the actual functionality is built from. Later on we can separate it out int
 submodules.
 """
 
-import numpy as np
+from typing import Any, TypeAlias
+
+import numpy.typing as npt
 
 from PAGOZA.measure_dimensionality import (
     DimensionalityMeasurer,
@@ -12,6 +14,8 @@ from PAGOZA.measure_dimensionality import (
     DimensionalityMethod,
 )
 from PAGOZA.pair_generation import PairGenerationMethod, PairGenerator, PairGeneratorProtocol
+
+ArrayLike: TypeAlias = npt.NDArray[Any]
 
 
 class PAGOZA:
@@ -27,12 +31,12 @@ class PAGOZA:
             method=pair_generation_method
         )
 
-    def run(self, X: np.array):
+    def run(self, X: ArrayLike) -> tuple[float, ArrayLike]:
         """
         Run the PAGOZA method on the input data X.
 
         Args:
-            X (np.array): Input data for which to measure dimensionality and generate pairs.
+            X (ArrayLike): Input data for which to measure dimensionality and generate pairs.
         """
         dimensionality = self.dimensionality_measurer.measure_dimensionality(X)
         pairs = self.pair_generator.generate_pairs(X)

@@ -33,12 +33,15 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["pagoza*"]
+include = ["PAGOZA*"]
 
 [tool.setuptools]
 package-dir = {"" = "src"}
 include-package-data = true
 zip-safe = false
+
+[tool.setuptools.package-data]
+PAGOZA = ["py.typed"]
 
 [tool.setuptools_scm]
 version_scheme = "post-release"
@@ -70,6 +73,8 @@ line-ending = "auto"
 
 [tool.mypy]
 exclude = ["docs/source/conf.py"]
+mypy_path = ["src"]
+explicit_package_bases = true
 
 [tool.isort]
 profile = "black"
