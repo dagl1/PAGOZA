@@ -15,6 +15,7 @@ dependencies = [
     "mypy>=1.19.1",
     "myst-parser>=5.0.0",
     "nbsphinx>=0.9.8",
+    "numpy>=2.4.3",
     "pre-commit>=4.5.1",
     "pytest>=9.0.2",
     "python-semantic-release>=10.5.3",
