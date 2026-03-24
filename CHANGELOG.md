@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/dagl1/PAGOZA/compare/v1.3.2...v1.4.0) (2026-03-24)
+
+### Features
+
+* **base_method:** methodWrapper class now ensures subclasses include GROUP and METHOD_NAME classvars ([5839bc7](https://github.com/dagl1/PAGOZA/commit/5839bc799f6c216e98a2a055122063514f51aeb5))
+* **PAGOZA-src:** initial architecture setup for protocols, wrappers, baseclasses ([72e2734](https://github.com/dagl1/PAGOZA/commit/72e27342b0b641a3907887a4687532384b9ab14c))
+
 ## [1.3.2](https://github.com/dagl1/PAGOZA/compare/v1.3.1...v1.3.2) (2026-03-23)
 
 ### Bug Fixes
