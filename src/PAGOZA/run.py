@@ -14,7 +14,6 @@ from PAGOZA.measure_dimensionality import (
 from PAGOZA.pair_generation import PairGenerationMethod, PairGenerator, PairGeneratorProtocol
 
 
-###### Base classes and protocols ######
 class PAGOZA:
     def __init__(
         self,
